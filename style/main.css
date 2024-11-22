@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hoja{
+    background-color: black;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/onepiece.jpeg");
+    /* background-position: center; */
+    background-size: cover;
+}
+h1{
+    background-color: rgb(45, 45, 45);
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    width: 100vw;
+    height: 4rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.visual{
+    height: 4rem;
+    width: 100vw;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.boton{
+    height: 3rem;
+    width: 5rem;
+    place-content: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-inline: .5rem;
+    margin-block: .5rem;
+    box-shadow: 10px 4px 5px 0px rgb(0, 0, 0);
+}
+/*Mobil S y M */
+@media (min-width: 310px){
+    .boton{
+        height: 3rem;
+        width: 4rem;
+    }
+}
+/*Mobil L*/
+@media (min-width: 400px){
+    .boton{
+        height: 3.5rem;
+        width: 4.9rem;
+    }
+}
+/*Mobil L-tablet*/
+@media (min-width: 472px){
+    .boton{
+        width: 6rem;
+    }
+}
+/*Tablet, laptop, laptop L*/
+@media (min-width: 500px){
+    .boton{
+        height: 3.5rem;
+        width: 3.6rem;
+        font-size: 1.3rem;
+    }
+    .container{
+        width: 300px;
+        height: 500px;
+    }
+}
